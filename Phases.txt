@@ -1,0 +1,36 @@
+Phase 1: 
+    make dummy databases called expese book
+    create table test fields (id , date, title, desc, amoout, user)
+    id -> primary key and auto genrated
+    date -> not null
+    title -> not null
+    amount -> not null 
+    user -> not null
+
+    get methods will take all data and send to react 
+    fliteration on the based year
+
+    react will display it in the Todo list format alongwith delete and edit button
+
+Phase 2:
+    make insert form and post api 
+    make update form and put api
+    make graphical bar and and filter operation 
+    delete operation and update operation.
+
+    on perticuler successfully completed operation make pop up information appear symbol. and error as well
+    pagination for todo list make offset of 10 limit
+Phase 3:
+    make login and sing up operation
+    Admin table ,
+    user details table -> full name, age , mob , city, email id, Salaray, and username 
+    make error handling and 
+    routing middleware 
+Phase 4:
+    Make Dashboard 
+    year ghaph
+    months graphs
+    Day Graph
+
+    // Respnsiveness 
+    450px and 700px

@@ -1,0 +1,8 @@
+export const reducerCases  = {
+    SET_USER : "SET_USER",
+    SET_EXPENSES: "SET_EXPENSES",
+    SET_ADD_NEW_EXPENSE : "SET_ADD_NEW_EXPENSE",
+    SET_ERROR : "SET_ERROR",
+    SET_FILTER_BY: "SET_FILTER_BY",
+}
+
