@@ -1,0 +1,28 @@
+.body{
+    margin: 2% auto;
+    width: 60%;
+    padding: 1rem;
+    background-color: orange;
+    border-radius: 1rem;
+}
+
+@media screen and (max-width: 700px) {
+    .body {
+        margin: 2% auto;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .body {
+        margin: 2% auto;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .body {
+        margin: 2% auto;
+        width: 90%;
+    }
+}

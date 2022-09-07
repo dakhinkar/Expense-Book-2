@@ -1,0 +1,62 @@
+
+/* Table Header section */
+.header, .rowData{
+    display: grid;
+    grid-template-columns: 10% 20% 35% 20% 15%;
+    text-align: left;
+
+}
+.header{
+    font-size: 1rem;
+    font-weight: bold;
+}
+/* Table data section */
+.expenseData{
+    height: 50vh;
+    overflow-y: auto;
+    margin-bottom: 0.5rem;
+}
+/* Each row */
+.rowData{
+    margin-bottom: 0.4rem;
+    word-wrap: break-word;
+}
+.rowData:hover{
+    background-color: white;
+}
+
+.action{
+    display:  flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.actionEdit,
+.actionDelete {
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.actionEdit:hover,
+.actionDelete:hover {
+    background-color: black;
+    color: white;
+
+}
+
+/* table footer section */
+
+.expFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.parPageFltr{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.parPageFltr select{
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}

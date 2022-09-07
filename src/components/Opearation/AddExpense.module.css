@@ -1,0 +1,39 @@
+.addButton{
+    margin:1% 35%;
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 0.7rem;
+    min-width: 10rem
+}
+
+.addButton:hover{
+    background-color: white;
+    color: blueviolet;
+    border: 1px solid white;
+}
+
+/* 
+@media screen and (max-width: 700px) {
+    .addButton{
+        margin:1% 35%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .addButton{
+        margin:1% 18%;
+    
+    }
+}
+@media screen and (max-width: 460px) {
+    .controls{
+        margin: 2% auto;
+        width: 90%;
+    }
+    .expenseControl input{
+        width: 20rem;
+    }
+} */

@@ -34,3 +34,6 @@ Phase 4:
 
     // Respnsiveness 
     450px and 700px
+
+
+    Box shadow type

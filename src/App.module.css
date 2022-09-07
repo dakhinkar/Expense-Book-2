@@ -1,8 +1,10 @@
 .app_container{
-    width: 70vw;
+    width: 60vw;
     height: 60vh;
     margin: 5% auto;
-    color: red
+    /* color: red */
+    /* background-color: brown; */
+    
 }
 
 

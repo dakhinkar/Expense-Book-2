@@ -1,0 +1,15 @@
+.filter{
+    display: flex;
+    justify-content: flex-end;
+    margin: 1rem;
+    gap: 1rem
+}
+.filter h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.filter select{
+    cursor: pointer;
+    border-radius: 0.5rem;
+    outline: none;
+}
